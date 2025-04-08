@@ -166,7 +166,6 @@ for subdir in tqdm(subdirs, desc="Processing directories", unit="folder"):
                                 prior_PD=0, alpha_scale=0.1, rho_scale=1/10, grid_type='internal',
                                 nb_chains=4, nb_warmup=500, nb_iter=nb_warmup+nb_sample,
                                 verbose=False,Cmdstan_path=Cmdstanpy_files_dir)
-                    print('passed here')
                     params=out_exp_gp(x,y,uy,fitGP,2)
                     model_gp='modFitExpGP'
                     br_gp=printBr(fitGP,model_gp)

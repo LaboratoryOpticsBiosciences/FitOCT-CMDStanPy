@@ -1,6 +1,7 @@
 ### 🛠 Environment & Dependencies
 
-**Fit OCT CMDStanPy** is developed using **Python 3.12.7** and the **CmdStanPy 1.2.4**. The package depends on the following Python libraries:
+**Fit OCT CMDStanPy** is developed based in original R version of the FitOCTLib available at https://github.com/ppernot/FitOCTlib.git .
+This python translation was developed using **Python 3.12.7** and the **CmdStanPy 1.2.4**. The package depends on the following Python libraries:
 
 - numpy  
 - matplotlib  
